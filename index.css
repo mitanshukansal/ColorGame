@@ -5,7 +5,7 @@
 
 #header {
   background-color: lightpink;
-  height: 30vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,11 +15,23 @@
 #container {
   background-color: black;
   height: 70vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-evenly;
   align-items: center;
 }
-
+#counter {
+  background-color: lightpink;
+  justify-content: right;
+}
+#reload {
+  background-color: red;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .tile {
   height: 200px;
   width: 200px;
